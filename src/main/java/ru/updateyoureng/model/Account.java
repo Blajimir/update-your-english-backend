@@ -17,4 +17,5 @@ public class Account {
     private String login;
     private String password;
     private String email;
+    private boolean enabled;
 }
