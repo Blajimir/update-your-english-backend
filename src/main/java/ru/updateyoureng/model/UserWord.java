@@ -18,6 +18,6 @@ public class UserWord {
     private Word word;
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private Account account;
+    private User user;
     private float rate;
 }

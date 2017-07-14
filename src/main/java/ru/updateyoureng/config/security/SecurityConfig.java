@@ -1,4 +1,4 @@
-package ru.updateyoureng.config;
+package ru.updateyoureng.config.security;
 
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.context.annotation.Configuration;

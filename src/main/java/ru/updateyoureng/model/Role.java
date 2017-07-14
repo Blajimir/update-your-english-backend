@@ -4,17 +4,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
-@Table(name = "cmn_vocabulary")
+@Table(name = "roles")
 @Data
 @NoArgsConstructor
-public class Word {
+public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;
-    private String value;
-    @Transient
-    private List<String> means;
+    private String name;
 }
